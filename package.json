@@ -1,0 +1,63 @@
+{
+  "name": "monks_innovation_inspired_by_nature",
+  "private": false,
+  "description": "Monks was born from a desire for quality, essential, non-toxic body products that simply work. With a genderless approach to quality and innovation inspired by nature, we develop effective formulas with as few ingredients as possible in order to respect your body and the planet. From our all-natural fragrance blends to our application mechanisms, every aspect of our collection and its design has been meticulously conceived to enhance your personal care ritual. With Monks, you can take more intentional care of yourself and experience the peace of mind that comes with knowing you can trust what is inside the things you put on your body.",
+  "version": "0.1.0",
+  "author": "Monks <info@monksearth.com>",
+  "engines": {
+    "node": "=> 10.13 < 14.9"
+  },
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.1",
+    "@emotion/styled": "^11.0.0",
+    "gatsby": "^3.0.0",
+    "gatsby-image": "^3.5.0",
+    "gatsby-plugin-google-analytics": "^3.5.0",
+    "gatsby-plugin-layout": "^2.5.0",
+    "gatsby-plugin-manifest": "^3.5.0",
+    "gatsby-plugin-offline": "^4.5.1",
+    "gatsby-plugin-react-helmet": "^4.5.0",
+    "gatsby-plugin-root-import": "^2.0.6",
+    "gatsby-plugin-sharp": "^3.5.0",
+    "gatsby-source-filesystem": "^3.5.0",
+    "gatsby-source-shopify": "^4.5.0",
+    "gatsby-transformer-sharp": "^3.5.0",
+    "isomorphic-fetch": "^3.0.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.19",
+    "prop-types": "^15.7.2",
+    "querystringify": "^2.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "set-value": "^3.0.2",
+    "shopify-buy": "^2.11.0"
+  },
+  "keywords": [
+    "monks deodorant",
+    "mens deodorant",
+    "natural soap",
+    "store",
+    "shop"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "start": "npm run dev",
+    "localDev": "gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/"
+  }
+}

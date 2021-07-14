@@ -1,0 +1,23 @@
+label{
+    font-size:.6rem;
+}
+
+.hero--wrapper{
+    width: 100%;
+    display: flex;
+    max-width: 910px;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 2rem;
+}
+
+.hero--image{
+    height:85vh;
+    width: auto;
+    margin:auto;
+}
+
+.footer--wrapper{
+    text-align: center;
+}
