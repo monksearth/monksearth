@@ -8,7 +8,14 @@ npm run dev
 
 ## Linking with shopify
 
-change .env.example to .env.development & .env.production
+Create two files named .env.development & .env.production
+add
+
+```
+SHOP_NAME=
+SHOPIFY_ACCESS_TOKEN=
+
+```
 
 https://www.shopify.com/partners/blog/17056443-how-to-generate-a-shopify-api-token
 
